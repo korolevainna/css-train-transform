@@ -1,95 +1,134 @@
-.task1 {
+.task1 .description {
+    border: solid blue;
+    transform:  rotate(270%);
 }
 
 .task1:hover {
+    transition-duration: 1s;
+    transition-timing-function: 1s ;
 }
 
-.task2 {
+.task2 .description {
+    border: solid blue;
+    transform:  rotate(135%);
 }
 
 .task2:hover {
+    transition-timing-function: 1s ;
 }
 
-.task3 {
+.task3 .description {
+    transform:  rotate(145px);
 }
 
 .task3:hover {
+    transform: rotate(45);
+    transition-timing-function: 1s ;
 }
 
-.task4 {
+.task4 .description {
+    transition-timing-function: 1s ;
 }
 
 .task4:hover {
+    transform: scale(1.3);
 }
 
-.task5 {
+.task5 .description {
+    transition-timing-function: 1s ;
 }
 
 .task5:hover {
+    transform: skewX(1.5);
 }
 
-.task6 {
+.task6 .description {
+    transition-timing-function: 1s ;
 }
 
 .task6:hover {
+    transform: matrix(2);
 }
 
-.task7 {
+.task7 .description {
+    transition-timing-function: 1s ;
 }
 
 .task7:hover {
+    transform: skew(70gr);
 }
 
-.task8 {
+.task8 .description {
+    transition-delay: 1s ;
 }
 
 .task8:hover {
+    transform: matrix(1,1,1,25,1);
 }
 
-.task9 {
+.task9 .description {
+    transition-timing-function: 1s ;
 }
 
 .task9:hover {
+    transform: skewY(20);
 }
 
-.task10 {
+.task10 .description {
+    transition-timing-function: 1s ;
 }
 
 .task10:hover {
+    transform: translateX(40px);
 }
 
-.task11 {
+.task11 .description {
+    transition-timing-function: 1s ;
 }
 
 .task11:hover {
+    transform: translateY(50px);
 }
 
-.task12 {
+.task12 .description {
+    transition-timing-function: 1s ;
 }
 
 .task12:hover {
+    transform-origin: center;
 }
 
-.task13 {
+.task13 .description {
+    transition-timing-function: 1s ;
 }
 
 .task13:hover {
+    transform: scale(20px);
+    transform: matrix(2,2,2);
 }
 
-.task14 {
+.task14 .description {
+    transition-timing-function: 1s ;
 }
 
 .task14:hover {
+    transform: translateZ(40px);
+    transform: matrix(2,3,3);
+    transform: rotate(45gr);
 }
 
-.task15 {
+.task15 .description {
+    transition-timing-function: 1s ;
 }
 
 .task15:hover {
+    transform: matrix(0.4, 1.1, 1.1, 1.1, 1);
 }
 
-.task16 {
+.task16 .description {
+    transition-timing-function: 1s ;
 }
 
 .task16:hover {
+    transform: matrix(0.5, 0, -0.866025, 0, 0.595877, 1.2, -1.03209, 0, 0.866025, 0, 0.5, 0, 25.9808, 0, 15, 1);
 }
